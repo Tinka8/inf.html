@@ -5,47 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="description" content="popis stránky">
 		<meta name="keywords" content="kľúčové slová pre vyhľadávače">
-		<link rel="stylesheet" href="styl.css"> 
-	<style>
-        body {
-	        width: 1000px;
-	        margin: 0 auto;
-            background-color: #F0C8BD;
-            font-family: 'Times New Roman', Helvetica, sans-serif;
-            line-height: 1.5em;
-            font-size: 1.8em;
-            text-align: justify;
-        }
-
-        h1 {
-            text-align: center;
-            line-height: 3em;
-        }
-
-        h2 {
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        h3 {
-            text-align: center;
-        }
-
-        a {
-            color: #000000;
-            transition: 600ms color;
-            text-decoration: none;
-        }
-  
-        a:hover {
-            color: #574b4b;
-        }
-
-        footer {
-            text-align: center;
-        }
-	</style> 
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
         <a href="./webuloha3.html">H1</a>
@@ -53,13 +13,34 @@
             Nápoje
         </h1>
         <h2>
-            Čaje Káva
+            Čaje <span style="border-left: 2px solid #444; padding-left: 10px;">Káva</span>
         </h2>
         <h3>
             Prices
         </h3>
-        <table>
-
+        <table border="1" style="border-collapse: collapse;">
+            <thead style="text-align: center;">
+                <th>Image</th>
+                <th>Text</th>
+                <th>Price</th>
+            </thead>
+            <tbody style="text-align: center;">
+                <tr>
+                    <td><img src="4.png" alt="čaj" width="250" height="250"></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in elit quis lectus convallis porta. Morbi rutrum, sapien a placerat blandit</td>
+                    <td>2 €</td>
+                </tr>
+                <tr>
+                    <td><img src="4.png" alt="čaj" width="250" height="250"></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in elit quis lectus convallis porta. Morbi rutrum, sapien a placerat blandit</td>
+                    <td>5 €</td>
+                </tr>
+                <tr>
+                    <td><img src="4.png" alt="čaj" width="250" height="250"></td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in elit quis lectus convallis porta. Morbi rutrum, sapien a placerat blandit</td>
+                    <td>3 €</td>
+                </tr>
+            </tbody>
         </table>
         <footer>
             Vypracovala Martina Gaťková, študentka Gymnázia <a style="font-weight: bold;" href="https://gpnr.sk/">Párovská 1, Nitra.</a>
