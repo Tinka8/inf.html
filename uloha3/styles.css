@@ -46,7 +46,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 
 footer {
@@ -57,4 +57,9 @@ footer {
 .cups {
     width: 50px;
     height: 50px;
+}
+
+.border-left {
+    border-left: 2px solid #444;
+    padding-left: 10px;
 }
