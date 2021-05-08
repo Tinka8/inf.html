@@ -10,8 +10,9 @@ body {
 
 h1 {
     text-align: center;
-    line-height: 3em;
+    font-size: 3em;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 h4 {
