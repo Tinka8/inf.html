@@ -63,3 +63,7 @@ footer {
     border-left: 2px solid #444;
     padding-left: 10px;
 }
+
+.link {
+    font-weight: bold;
+}
