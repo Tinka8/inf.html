@@ -30,36 +30,6 @@ img {
 }
 
 /* ==========================================================================
-   mobile styles
-   ========================================================================== */
-@media (max-width: 768px) {
-    header .flex {
-        flex-direction: column;
-    }
-
-    header .flex .flex-grow-0,
-    header .flex .flex-1 {
-        width: 100%;
-    }
-
-    header .flex .flex-1.text-right {
-        text-align: left;
-    }
-
-    .menu ul li {
-        display: block;
-        margin: 7.5px 10px;
-    }
-
-    .menu ul li a {
-        display: block;
-        padding: 5px 15px;
-        background-color: #f2f2f2;
-        border-radius: 4px;
-    }
-}
-
-/* ==========================================================================
    main page view
    ========================================================================== */
 
@@ -127,3 +97,34 @@ img {
 /* ==========================================================================
    drinks page view
    ========================================================================== */
+
+/* ==========================================================================
+   mobile styles
+   ========================================================================== */
+   
+@media (max-width: 768px) {
+    header .flex {
+        flex-direction: column;
+    }
+
+    header .flex .flex-grow-0,
+    header .flex .flex-1 {
+        width: 100%;
+    }
+
+    header .flex .flex-1.text-right {
+        text-align: left;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 7.5px 10px;
+    }
+
+    .menu ul li a {
+        display: block;
+        padding: 5px 15px;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+    }
+}
