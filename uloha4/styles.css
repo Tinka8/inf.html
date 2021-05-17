@@ -1,5 +1,8 @@
 body {
-    background-color: #a87486;
+    background-color: #fff;
+    border-top: 5px solid #ff4444;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -16,3 +19,53 @@ a:hover {
     color: #fff;
     background-color: #000000; 
 }
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    padding-left: 40px;
+}
+
+/* ==========================================================================
+   main page view
+   ========================================================================== */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-grow-0 {
+    flex: 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
