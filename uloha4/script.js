@@ -131,3 +131,14 @@ function init() {
         title: "Snazzy!",
     });
 }
+
+// arrow
+const arrow = document.getElementById('arrow');
+const treshold = 150;
+document.body.onscroll = function() {
+    if (window.scrollY > treshold) {
+			arrow.classList.add('show');
+    } else {
+    	arrow.classList.remove('show');
+    }
+}
