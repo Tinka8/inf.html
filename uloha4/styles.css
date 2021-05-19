@@ -17,7 +17,7 @@ a:hover {
 
 ::selection { 
     color: #fff;
-    background-color: #000000; 
+    background-color: #afa0a0; 
 }
 
 header {
@@ -61,6 +61,18 @@ footer {
   
 #arrow.show {
     display: block;
+}
+
+.border-left {
+    border-left: 2px solid #ffffff;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    transition: 600ms color;
 }
 
 /* ==========================================================================
