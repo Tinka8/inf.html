@@ -54,13 +54,21 @@ footer {
     bottom: 60px;
     z-index: 10;
     background-color: #2a2a2a;
-    text-indent: -9999px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
     overflow: hidden;
     display: none;
 }
   
 #arrow.show {
     display: block;
+}
+
+#arrow svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
 }
 
 .border-left {
