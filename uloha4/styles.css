@@ -123,7 +123,6 @@ footer {
     text-decoration: none;
     position: relative;
 }
-
 .menu ul li a:after {
     content: "";
     display: block;
@@ -135,17 +134,19 @@ footer {
     transition: 600ms all;
     left: 50%;
 }
-
-.menu ul li a:hover:after {
+  
+.menu ul li a:hover:after,
+.menu ul li a.active:after{
     width: 100%;
-    background-color: #ff0000;
+    background-color: #ff4444;
     left: 0;
 }
-
-.menu ul li a:hover {
-    color: #ff0000;
+  
+.menu ul li a:hover,
+.menu ul li a.active {
+    color: #ff4444;
 }
-
+  
 /* ==========================================================================
    poke page view
    ========================================================================== */
