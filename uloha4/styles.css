@@ -111,14 +111,17 @@ footer {
    ========================================================================== */
 
 .main-carousel .carousel-cell {
+    top: 35px;
     display: block;
     width: 33.3%;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .main-carousel .flickity-page-dots {
     bottom: auto;
-    top: -25px;
+    top: 30px;
 }
 
 /* ==========================================================================
