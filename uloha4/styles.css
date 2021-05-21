@@ -83,6 +83,29 @@ footer {
     transition: 600ms color;
 }
 
+.catalog {
+    display: flex;
+    width: 100%;
+}
+  
+.product {
+    flex: 0 0 33.3%;
+    text-align: center;
+}
+  
+.product-image {
+    height: 200px;
+}
+  
+.product-title {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 30px;
+}
+
 /* ==========================================================================
    main page view
    ========================================================================== */
