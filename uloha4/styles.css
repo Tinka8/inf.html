@@ -218,21 +218,21 @@ footer {
     color: #008000;
 }
 
-.photo {
+.upload {
     width: 350px;
     height: 350px;
     position: relative;
     margin: 0 auto;
 }
 
-.photo img:nth-child(1) {
+.upload img:nth-child(1) {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
 }
   
-.photo:hover img:nth-child(1) {
+.upload:hover img:nth-child(1) {
     opacity: 0;
 }
 
