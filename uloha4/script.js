@@ -143,14 +143,11 @@ document.body.onscroll = function() {
     }
 }
 
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
+var elem = document.querySelector(".main-carousel");
+var flkty = new Flickity(elem, {
+  autoPlay: 2500, // start sliding automatically (in ms)
+  pauseAutoPlayOnHover: false, // pause autoplay on hover
+  initialIndex: 0, // starting slide (begins with 0)
+  wrapAround: true, // do infinite loop on end
+  cellAlign: "left", // alignment of center cell
 });
