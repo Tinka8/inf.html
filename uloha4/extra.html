@@ -9,13 +9,19 @@
               type="image/png"
               href="./sauce.png"  
         >
+        <!-- JavaScript google maps-->
         <script
             type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBYIbskGlDZkA6OU-j8cM6GFWdJm0guU"
         ></script>
+        <!-- CSS -->    
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <!-- JavaScript -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </head>
     <body>
         <header>
+            <!-- logo refer link to main page -->
             <div class="flex">
                 <div class="flex-grow-0">
                     <a class="logo" href="./index.html">
@@ -27,6 +33,7 @@
                         >
                     </a>
                 </div>
+                <!-- subpages- links -->
                 <div class="flex-1 text-right">
                     <nav class="menu">
                         <ul>
@@ -42,6 +49,7 @@
                 </div>
             </div>
         </header>
+        <!-- slide bar -->
         <div class="main-carousel">
             <div class="carousel-cell">
                 <img
@@ -100,7 +108,20 @@
                 ><a href="#" class="product-title">Miso Shoyu Ramen</a>
             </div>
         </div>
+        <!-- menu -->
+        <div>
+            <div class="selection">
+                <img
+                    src="https://www.koisushi.sk/wp-content/uploads/2020/07/extra_kizame_Wasabi.jpg"
+                    alt="Kizame wasabi"
+                    class="selection-image"
+                ><a href="#" class="">Kizame wasabi 7g</a>
+            </div>
+
+        </div>
+        <!-- map -->
         <div id="map"></div>
+        <!-- arrow -->
         <a href="#top" id="arrow">
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
