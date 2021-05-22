@@ -209,8 +209,11 @@ footer {
    menu view
    ========================================================================== */
 
-.selection {
-    text-align: center;
+.selection { 
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
 
 }
 
@@ -223,6 +226,7 @@ footer {
     height: 350px;
     position: relative;
     margin: 0 auto;
+    flex: 1;
 }
 
 .upload img:nth-child(1) {
@@ -235,6 +239,8 @@ footer {
 .upload:hover img:nth-child(1) {
     opacity: 0;
 }
+
+
 
 /* ==========================================================================
    mobile styles
