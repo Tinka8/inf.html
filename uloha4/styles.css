@@ -217,9 +217,23 @@ footer {
 
 }
 
+.selection-text {
+    flex: 1;
+    padding-top: 140px;
+}
+
 .selection-title {
     color: #008000;
     padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.selection-price {
+    font-family: sans-serif;
+    text-align: right;
+    padding-top: 5px;
+    font-style: italic;
 }
 
 .upload {
@@ -228,6 +242,7 @@ footer {
     position: relative;
     margin: 0 auto;
     flex: 1;
+    max-width: 266px; 
 }
 
 .upload img:nth-child(1) {
@@ -240,8 +255,6 @@ footer {
 .upload:hover img:nth-child(1) {
     opacity: 0;
 }
-
-
 
 /* ==========================================================================
    mobile styles
