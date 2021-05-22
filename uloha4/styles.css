@@ -211,20 +211,22 @@ footer {
 
 .selection { 
     overflow: hidden;
-    width: 500px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
-
+    align-items: center;
 }
 
 .selection-text {
     flex: 1;
     padding-top: 140px;
+    padding-left: 125px;
+    text-align: left;
 }
 
 .selection-title {
     color: #008000;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -237,12 +239,17 @@ footer {
 }
 
 .upload {
-    width: 350px;
-    height: 350px;
     position: relative;
     margin: 0 auto;
     flex: 1;
-    max-width: 266px; 
+    max-width: 250px; 
+}
+
+.upload-one {
+    position: relative;
+    margin: 0 auto;
+    flex: 1;
+    max-width: 250px;
 }
 
 .upload img:nth-child(1) {
@@ -250,6 +257,7 @@ footer {
     top: 0;
     left: 0;
     right: 0;
+   
 }
   
 .upload:hover img:nth-child(1) {
