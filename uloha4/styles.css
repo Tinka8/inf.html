@@ -220,15 +220,22 @@ footer {
 .selection-text {
     flex: 1;
     padding-top: 140px;
-    padding-left: 125px;
+    padding-left: 20px;
     text-align: left;
+    font-family: sans-serif;
 }
 
 .selection-title {
     color: #008000;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     font-family: sans-serif;
     font-weight: bold;
+    font-size: 1.3em;
+}
+
+.selection-descr {
+    padding-bottom: 20px;
+    font-size: 0.9em;
 }
 
 .selection-price {
@@ -242,14 +249,18 @@ footer {
     position: relative;
     margin: 0 auto;
     flex: 1;
-    max-width: 250px; 
+    max-width: 350px; 
+    max-height: 350px;
+    top: 50px;
 }
 
 .upload-one {
     position: relative;
     margin: 0 auto;
     flex: 1;
-    max-width: 250px;
+    max-width: 350px;
+    max-height: 350px;
+    top: 50px;
 }
 
 .upload img:nth-child(1) {
