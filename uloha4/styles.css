@@ -290,11 +290,31 @@ footer {
 
 .index {
     width: 1000px;
-    text-align: center;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.index-img {
+    position: relative;
+    margin: 0 auto;
+    flex: 1;
+    max-width: 450px; 
+    max-height: 450px;
+}
+
+.indext-text {
+    flex: 1;
+    text-align: left;
+}
+
+.border-top {
     border-top: 1px solid #000;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
+    width: 1050px;
+    margin: 0 auto;
 }
 
 /* ==========================================================================
