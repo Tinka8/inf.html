@@ -261,6 +261,7 @@ footer {
     max-width: 350px;
     max-height: 350px;
     top: 50px;
+    text-align: center;
 }
 
 .upload img:nth-child(1) {
