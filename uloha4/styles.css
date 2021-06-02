@@ -294,6 +294,7 @@ footer {
     display: flex;
     align-items: center;
     overflow: hidden;
+    padding-top: 20px;
 }
 
 .index-img {
@@ -302,19 +303,36 @@ footer {
     flex: 1;
     max-width: 450px; 
     max-height: 450px;
+    padding: 12px;
 }
 
 .indext-text {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .border-top {
     border-top: 1px solid #000;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     width: 1050px;
     margin: 0 auto;
+}
+
+.top {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.bot {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 20px;
 }
 
 /* ==========================================================================
