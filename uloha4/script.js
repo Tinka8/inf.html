@@ -9,7 +9,7 @@ function init() {
         zoom: 16,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(48.292105, 18.075127), // Nitra
+        center: new google.maps.LatLng(48.31652591103113, 18.091537626693174), // Nitra
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
@@ -126,7 +126,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(48.292105, 18.075127),
+        position: new google.maps.LatLng(48.31654018070212, 18.09150544018849),
         map: map,
         title: "Snazzy!",
     });
